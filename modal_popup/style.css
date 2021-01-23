@@ -1,0 +1,98 @@
+body {
+  /* background-color: aliceblue; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border-radius: 20;
+}
+
+#overlay {
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+
+#close-btn {
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  width: 100px;
+  height: 18px;
+  background-image: url("stars_empty.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100px 18px;
+}
+
+.stars {
+  width: 73%;
+  height: 18px;
+  background-image: url("stars_full.svg");
+  background-repeat: no-repeat;
+  background-size: 100px 18px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  margin-bottom: 0.5em;
+}
+
+.bar:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  /* display: flex; */
+/* } */
