@@ -1,7 +1,7 @@
 # simple-modals
 Very basic way to create git modals using html, css & vanilla JS.
 
-The general idea is to create a div with absolute positioning and a z-index above anything else on our page.
+The general idea is to create a div with absolute positioning and a z-index above everything else on our page.
 
 The popup version uses an overlay (div) to cover everything behind our modal.
 We want this overlay to sit between our modal and the rest of the page so we need to set the z-index above 0 but under the z-index we assign our modal.
