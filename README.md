@@ -1,5 +1,5 @@
 # simple-modals
-Very basic way to create git modals using html, css & vanilla JS.
+Very basic way to create modals using html, css & vanilla JS.
 
 The general idea is to create a div with absolute positioning and a z-index above everything else on our page.<br />
 <br />
